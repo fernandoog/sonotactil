@@ -1,0 +1,140 @@
+Pd 0.43.4.extended on win32
+Tcl/Tk 8.5.13
+------------------------------------------------------------------------------
+{} 3 {'pd-gui' connecting to 'pd' on localhost 5400 ...
+} {} 4 {------------------ done with main ----------------------
+} {} 3 {[import] $Revision: 1.2 $
+} {} 4 {	[import] is still in development, the interface could change!
+} {} 4 {	compiled against Pd version 0.43.4
+} {} 3 {[path] $Revision: 1.2 $
+} {} 4 {	[path] is still in development, the interface could change!
+} {} 4 {	compiled against Pd version 0.43.4
+} {} 4 {Default font: DejaVu Sans Mono
+} {} 8 {Creating 8 font at {-9 5 11}
+} {} 8 {Creating 9 font at {-10 6 12}
+} {} 8 {Creating 10 font at {-10 6 13}
+} {} 8 {Creating 12 font at {-12 7 16}
+} {} 8 {Creating 14 font at {-14 8 17}
+} {} 8 {Creating 16 font at {-16 10 19}
+} {} 8 {Creating 18 font at {-19 11 22}
+} {} 8 {Creating 24 font at {-24 14 29}
+} {} 8 {Creating 30 font at {-30 18 37}
+} {} 8 {Creating 36 font at {-37 22 44}
+} {} 3 {Cannot read plugins folder: 'C:/Program Files (x86)/pd_43/%SystemRoot%/Fonts'
+} {} 3 {Cannot read plugins folder: 'C:/Program Files (x86)/Common Files/Pd'
+} {} 3 {Cannot read plugins folder: 'C:/Users/Joaku de Sotavento/Application Data/Pd'
+} {} 3 {Loading plugin: C:/Program Files (x86)/pd_43/extra/search-plugin/search-plugin.tcl
+} {} 3 {Loading translations for search-plugin.tcl
+} {} 2 {Warning: midi input is dangerous in Microsoft Windows\; see Pd manual)
+} {} 14 {The Pd window filtered 25 lines
+} {} 5 {Using C:/Program Files (x86)/pd_43/startup as startup.
+} {} 4 {Loading C:/Program Files (x86)/pd_43/startup/0.libdir.dll
+} {} 3 {libdir loader 1.9
+} {} 3 {	compiled on Jan 24 2013 at 03:49:27 
+} {} 3 {	compiled against Pd version 0.43.4.extended
+} {} 4 {Loading C:/Program Files (x86)/pd_43/startup/1.list.dll
+} {} 4 {Loading extra in C:/Program Files (x86)/pd_43/startup/extra
+} {} 3 {libdir_loader: added 'extra' to the global objectclass path
+} {} 14 {Loaded libdir 'extra' from 'C:/Program Files (x86)/pd_43/extra/extra'
+} {} 4 {Loading pdlua in C:/Program Files (x86)/pd_43/startup/pdlua
+} {} 3 {pdlua 0.7.1 (GPL) 2012 Martin Peach, based on
+} {} 3 {lua 0.6~svn (GPL) 2008 Claude Heiland-Allen <claudiusmaximus@goto10.org>
+} {} 3 {pdlua: compiled for pd-0.43 on Jan 24 2013 03:49:28
+} {} 4 {Loading tclpd in C:/Program Files (x86)/pd_43/startup/tclpd
+} {} 3 {tclpd loader v0.3.0} {} 2 {
+} {} 3 {tclpd: trying to load C:/Program Files (x86)/pd_43/extra/tclpd/tclpd.tcl...} {} 2 {
+} {} 3 {tclpd: loaded C:/Program Files (x86)/pd_43/extra/tclpd/tclpd.tcl} {} 2 {
+} {} 4 {Loading vanilla in C:/Program Files (x86)/pd_43/startup/vanilla
+} {} 3 {libdir_loader: added 'vanilla' to the global objectclass path
+} {} 14 {Loaded libdir 'vanilla' from 'C:/Program Files (x86)/pd_43/extra/vanilla'
+} {} 2 {GEM: Graphics Environment for Multimedia
+} {} 2 {GEM: ver: 0.93.3 
+} {} 2 {GEM: compiled: Nov 10 2011
+} {} 2 {GEM: maintained by IOhannes m zmoelnig
+} {} 2 {GEM: Authors :	Mark Danks (original version)
+} {} 2 {GEM:		Chris Clepper
+} {} 2 {GEM:		Cyrille Henry
+} {} 2 {GEM:		IOhannes m zmoelnig
+} {} 2 {GEM: with help by Guenter Geiger, Daniel Heckenberg, James Tittle, Hans-Christoph Steiner, et al.
+} {} 2 {GEM: found a bug? miss a feature? please report it:
+} {} 2 {GEM: 	homepage http://gem.iem.at/
+} {} 2 {GEM: 	bug-tracker http://sourceforge.net/projects/pd-gem/
+} {} 2 {GEM: 	mailing-list http://lists.puredata.info/listinfo/gem-dev/
+} {} 2 {GEM: compiled for SIMD architecture: } {} 2 {SSE2 } {} 2 {MMX } {} 2 {
+} {} 2 {GEM: using } {} 2 SSE2 {} 2 { optimization
+} {} 3 {libdir_loader: added 'cyclone' to the global objectclass path
+} {} 14 {Loaded libdir 'cyclone' from 'C:/Program Files (x86)/pd_43/extra/cyclone'
+} {} 3 {libdir_loader: added 'zexy' to the global objectclass path
+} {} 14 {Loaded libdir 'zexy' from 'C:/Program Files (x86)/pd_43/extra/zexy'
+} {} 3 {libdir_loader: added 'creb' to the global objectclass path
+} {} 14 {Loaded libdir 'creb' from 'C:/Program Files (x86)/pd_43/extra/creb'
+} {} 3 {libdir_loader: added 'cxc' to the global objectclass path
+} {} 14 {Loaded libdir 'cxc' from 'C:/Program Files (x86)/pd_43/extra/cxc'
+} {} 3 {libdir_loader: added 'iemlib' to the global objectclass path
+} {} 14 {Loaded libdir 'iemlib' from 'C:/Program Files (x86)/pd_43/extra/iemlib'
+} {} 3 {libdir_loader: added 'list-abs' to the global objectclass path
+} {} 14 {Loaded libdir 'list-abs' from 'C:/Program Files (x86)/pd_43/extra/list-abs'
+} {} 3 {libdir_loader: added 'mapping' to the global objectclass path
+} {} 14 {Loaded libdir 'mapping' from 'C:/Program Files (x86)/pd_43/extra/mapping'
+} {} 3 {libdir_loader: added 'markex' to the global objectclass path
+} {} 14 {Loaded libdir 'markex' from 'C:/Program Files (x86)/pd_43/extra/markex'
+} {} 3 {libdir_loader: added 'maxlib' to the global objectclass path
+} {} 14 {Loaded libdir 'maxlib' from 'C:/Program Files (x86)/pd_43/extra/maxlib'
+} {} 3 {libdir_loader: added 'mjlib' to the global objectclass path
+} {} 14 {Loaded libdir 'mjlib' from 'C:/Program Files (x86)/pd_43/extra/mjlib'
+} {} 3 {libdir_loader: added 'motex' to the global objectclass path
+} {} 14 {Loaded libdir 'motex' from 'C:/Program Files (x86)/pd_43/extra/motex'
+} {} 3 {libdir_loader: added 'oscx' to the global objectclass path
+} {} 14 {Loaded libdir 'oscx' from 'C:/Program Files (x86)/pd_43/extra/oscx'
+} {} 3 {libdir_loader: added 'pddp' to the global objectclass path
+} {} 14 {Loaded libdir 'pddp' from 'C:/Program Files (x86)/pd_43/extra/pddp'
+} {} 3 {libdir_loader: added 'pdogg' to the global objectclass path
+} {} 14 {Loaded libdir 'pdogg' from 'C:/Program Files (x86)/pd_43/extra/pdogg'
+} {} 3 {libdir_loader: added 'pmpd' to the global objectclass path
+} {} 14 {Loaded libdir 'pmpd' from 'C:/Program Files (x86)/pd_43/extra/pmpd'
+} {} 3 {libdir_loader: added 'sigpack' to the global objectclass path
+} {} 14 {Loaded libdir 'sigpack' from 'C:/Program Files (x86)/pd_43/extra/sigpack'
+} {} 3 {libdir_loader: added 'smlib' to the global objectclass path
+} {} 14 {Loaded libdir 'smlib' from 'C:/Program Files (x86)/pd_43/extra/smlib'
+} {} 3 {libdir_loader: added 'unauthorized' to the global objectclass path
+} {} 14 {Loaded libdir 'unauthorized' from 'C:/Program Files (x86)/pd_43/extra/unauthorized'
+} {} 3 {libdir_loader: added 'pan' to the global objectclass path
+} {} 14 {Loaded libdir 'pan' from 'C:/Program Files (x86)/pd_43/extra/pan'
+} {} 3 {libdir_loader: added 'hcs' to the global objectclass path
+} {} 14 {Loaded libdir 'hcs' from 'C:/Program Files (x86)/pd_43/extra/hcs'
+} {} 3 {libdir_loader: added 'jmmmp' to the global objectclass path
+} {} 14 {Loaded libdir 'jmmmp' from 'C:/Program Files (x86)/pd_43/extra/jmmmp'
+} {} 3 {libdir_loader: added 'ext13' to the global objectclass path
+} {} 14 {Loaded libdir 'ext13' from 'C:/Program Files (x86)/pd_43/extra/ext13'
+} {} 3 {libdir_loader: added 'ggee' to the global objectclass path
+} {} 14 {Loaded libdir 'ggee' from 'C:/Program Files (x86)/pd_43/extra/ggee'
+} {} 3 {libdir_loader: added 'ekext' to the global objectclass path
+} {} 14 {Loaded libdir 'ekext' from 'C:/Program Files (x86)/pd_43/extra/ekext'
+} {} 3 {libdir_loader: added 'flatgui' to the global objectclass path
+} {} 14 {Loaded libdir 'flatgui' from 'C:/Program Files (x86)/pd_43/extra/flatgui'
+} {} 3 {libdir_loader: added 'chaos' to the global objectclass path
+} {} 14 {Loaded libdir 'chaos' from 'C:/Program Files (x86)/pd_43/extra/chaos'
+} {} 4 {[&&~] part of zexy-2.2.5.1pdextended (compiled: Jan 24 2013)} {} 2 {
+} {} 4 {	Copyright (c) 1999-2012 IOhannes m zmölnig, forum::für::umläute & IEM} {} 2 {
+} {} 4 {[.] part of zexy-2.2.5.1pdextended (compiled: Jan 24 2013)} {} 2 {
+} {} 4 {	Copyright (c) 1999-2012 IOhannes m zmölnig, forum::für::umläute & IEM} {} 2 {
+} {} 4 {[<~] part of zexy-2.2.5.1pdextended (compiled: Jan 24 2013)} {} 2 {
+} {} 4 {	Copyright (c) 1999-2012 IOhannes m zmölnig, forum::für::umläute & IEM} {} 2 {
+} {} 4 {[==~] part of zexy-2.2.5.1pdextended (compiled: Jan 24 2013)} {} 2 {
+} {} 4 {	Copyright (c) 1999-2012 IOhannes m zmölnig, forum::für::umläute & IEM} {} 2 {
+} {} 4 {[>~] part of zexy-2.2.5.1pdextended (compiled: Jan 24 2013)} {} 2 {
+} {} 4 {	Copyright (c) 1999-2012 IOhannes m zmölnig, forum::für::umläute & IEM} {} 2 {
+} {} 4 {[||~] part of zexy-2.2.5.1pdextended (compiled: Jan 24 2013)} {} 2 {
+} {} 4 {	Copyright (c) 1999-2012 IOhannes m zmölnig, forum::für::umläute & IEM} {} 2 {
+} {} 3 {Deleting preferences in HKEY_CURRENT_USER\Software\Pd-extended
+} {} 3 {Deleting preferences in HKEY_LOCAL_MACHINE\Software\Pd-extended
+} {} 3 {Reseting registry from C:/Program Files (x86)/pd_43/bin/pd-settings.reg
+} {} 2 {} {} 2 { } {} 2 dac~ {} 2 { } {} 2 1 {} 2 { } {} 2 2 {} 2 {
+} {} 1 {... couldn't create} {} 2 {
+} {} 2 {} {} 2 { } {} 2 dac~ {} 2 { } {} 2 1 {} 2 { } {} 2 2 {} 2 { } {} 2 3 {} 2 {
+} {} 1 {... couldn't create} {} 2 {
+} {} 2 {} {} 2 { } {} 2 dac~ {} 2 { } {} 2 1 {} 2 { } {} 2 2 {} 2 {
+} {} 1 {... couldn't create} {} 2 {
+} {} 2 {} {} 2 { } {} 2 dac~ {} 2 {
+} {} 1 {... couldn't create} {} 2 {
+}

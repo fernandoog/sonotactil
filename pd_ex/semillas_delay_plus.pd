@@ -1,0 +1,126 @@
+#N canvas 706 0 1202 944 10;
+#X obj 203 17 adc~;
+#X obj 206 492 dac~;
+#X obj 304 238 *~ 0.06;
+#X obj 200 210 delwrite~ delayname 1000;
+#X obj 783 171 hsl 128 15 0 300 0 0 empty empty VariDelay -2 -8 0 10
+-262144 -1 -1 7197 1;
+#X floatatom 785 226 5 0 0 0 - - -;
+#X obj 206 278 delread~ delayname 150;
+#X obj 295 39 hsl 128 15 0 2 0 0 empty empty Input_Gain -2 -8 0 10
+-262144 -1 -1 12700 1;
+#X obj 206 434 *~;
+#X obj 235 321 hsl 128 15 0 3 0 0 empty empty Output_Gain -2 -8 0 10
+-262144 -1 -1 6350 1;
+#X msg 232 353 \$1 10;
+#X obj 232 386 line~;
+#X floatatom 333 375 5 0 0 0 - - -;
+#X obj 561 1 adc~;
+#X obj 563 498 dac~;
+#X obj 662 222 *~ 0.06;
+#X obj 648 19 hsl 128 15 0 1.5 0 0 empty empty Input_Gain -2 -8 0 10
+-262144 -1 -1 12700 1;
+#X obj 563 455 *~;
+#X obj 591 304 hsl 128 15 0 0.9 0 0 empty empty Output_Gain -2 -8 0
+10 -262144 -1 -1 11148 1;
+#X msg 588 336 \$1 10;
+#X obj 588 415 line~;
+#X floatatom 689 358 5 0 0 0 - - -;
+#X obj 558 194 delwrite~ delayname2 1000;
+#X obj 564 262 delread~ delayname2 150;
+#X floatatom 650 60 5 0 0 0 - - -;
+#X obj 558 119 *~;
+#X floatatom 289 81 5 0 0 0 - - -;
+#X obj 200 135 *~;
+#X obj 399 208 hsl 128 15 0 300 0 0 empty empty VariDelay -2 -8 0 10
+-262144 -1 -1 8975 1;
+#X floatatom 377 253 5 0 0 0 - - -;
+#X msg 333 459 212;
+#X msg 383 461 170;
+#X msg 534 694 0;
+#X text 493 667 botón de emergencias;
+#X msg 713 630 1.5;
+#X msg 749 629 0.79;
+#X msg 800 628 212;
+#X msg 850 630 170;
+#X msg 893 627 212;
+#X msg 943 629 170;
+#X text 328 489 1er escena delay 212 y 170;
+#X text 713 664 Arranque inicial;
+#X text 240 573 subir de tono;
+#X obj 789 570 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 578 626 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 242 682 para la escena de la mora subir el feedback y quitarlo.
+Todo mientras va entrando el;
+#X text 242 767 Sumar el coil pick up;
+#X text 237 816 Cuando estan los papele bajar el mic de la caja de
+metal del proyector;
+#X text 241 881 NT. Filtrar el ruido con un equalizador;
+#X obj 61 10 pddp/dsp;
+#X text 835 34 Canal 2 del MIC H4;
+#X text 377 1 Canal 1 del mic H4;
+#X msg 711 799 1.5;
+#X msg 747 798 0.79;
+#X msg 798 797 212;
+#X msg 848 799 170;
+#X msg 891 796 212;
+#X msg 941 798 170;
+#X text 711 833 Arranque inicial;
+#X obj 787 739 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 725 713 escena 2 vibracion;
+#X connect 0 0 27 0;
+#X connect 2 0 3 0;
+#X connect 4 0 5 0;
+#X connect 5 0 23 0;
+#X connect 6 0 2 0;
+#X connect 6 0 8 0;
+#X connect 7 0 26 0;
+#X connect 8 0 1 1;
+#X connect 9 0 10 0;
+#X connect 9 0 12 0;
+#X connect 10 0 11 0;
+#X connect 11 0 8 1;
+#X connect 13 1 25 0;
+#X connect 15 0 22 0;
+#X connect 16 0 24 0;
+#X connect 17 0 14 0;
+#X connect 18 0 19 0;
+#X connect 18 0 21 0;
+#X connect 19 0 20 0;
+#X connect 20 0 17 1;
+#X connect 23 0 15 0;
+#X connect 23 0 17 0;
+#X connect 24 0 25 1;
+#X connect 25 0 22 0;
+#X connect 26 0 27 1;
+#X connect 27 0 3 0;
+#X connect 28 0 29 0;
+#X connect 29 0 6 0;
+#X connect 30 0 28 0;
+#X connect 31 0 4 0;
+#X connect 32 0 9 0;
+#X connect 32 0 18 0;
+#X connect 32 0 16 0;
+#X connect 32 0 7 0;
+#X connect 34 0 9 0;
+#X connect 35 0 18 0;
+#X connect 36 0 28 0;
+#X connect 37 0 4 0;
+#X connect 38 0 7 0;
+#X connect 39 0 16 0;
+#X connect 43 0 34 0;
+#X connect 43 0 35 0;
+#X connect 43 0 36 0;
+#X connect 43 0 37 0;
+#X connect 43 0 38 0;
+#X connect 43 0 39 0;
+#X connect 44 0 32 0;
+#X connect 59 0 52 0;
+#X connect 59 0 53 0;
+#X connect 59 0 54 0;
+#X connect 59 0 55 0;
+#X connect 59 0 56 0;
+#X connect 59 0 57 0;
